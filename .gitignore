@@ -64,5 +64,8 @@ JPA_Hibernate/first-test/mysql-data/
 
 */**/.gitignore
 
+**/a.out
+**/obtuary.bin
+
 -- TESTING --
 **/*.madmoiselle
