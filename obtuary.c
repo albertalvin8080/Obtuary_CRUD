@@ -24,7 +24,7 @@ typedef struct
 typedef enum
 {
 	MAIN_SCREEN = -1,
-	OUT_SCREEN,		   // 0
+	OUT_SCREEN,	   // 0
 	REGISTER_SCREEN,   // 1
 	UNREGISTER_SCREEN, // 2
 	LIST_ALL_SCREEN	   // 3
