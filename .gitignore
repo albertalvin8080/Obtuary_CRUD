@@ -67,6 +67,6 @@ JPA_Hibernate/first-test/mysql-data/
 **/a.out
 **/obtuary.bin
 
-*     #ignore everything
-!*/   #unignore directories 
-!*.*  #unignore files with extensions
+*     # ignore everything
+!/**/ # unignore directories 
+!*.*  # unignore files with extensions
