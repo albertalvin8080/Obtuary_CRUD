@@ -11,7 +11,7 @@ int main()
 
 	Screen menu;
 	Obtuary *obit = (Obtuary *)calloc(MAX_DEAD, sizeof(Obtuary));
-	// Obtuary *obit = (Obtuary *)malloc(MAX_DEAD * sizeof(Obtuary));
+	// Obtuary *obit = (Obtuary*) malloc(MAX_DEAD * sizeof(Obtuary));
 	// memset(obit, 0, MAX_DEAD * sizeof(Obtuary));
 
 	loadRecordsToProgramMemory(obit);
